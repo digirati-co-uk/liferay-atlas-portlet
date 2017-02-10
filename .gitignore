@@ -1,0 +1,39 @@
+*.java.hsp
+*.sonarj
+*.sw*
+.DS_Store
+.metadata
+*.sass-cache
+*.sublime-grunt.cache
+.tern-project
+
+classes
+target
+bin
+
+# Exclude parent folder pom
+portlets/pom.xml
+portlets/pom_local.xml
+exts/pom.xml
+
+# Eclipse metadata
+.classpath
+.project
+.settings
+.springBeans
+
+# IDEA metadata and output dirs
+.idea
+*.iml
+*.ipr
+*.iws
+
+#Exclude other folders
+RemoteSystemsTempFiles
+Servers
+themes/bcc-beta-theme/.scss-lint.yml
+themes/bcc-beta-theme/koala-config.json
+themes/bcc-beta-theme/develop
+themes/bcc-beta-theme/src/main/webapp/js/main.min.js
+themes/bcc-beta-theme/src/main/webapp/js/main.pack.js
+develop
